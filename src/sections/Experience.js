@@ -21,15 +21,14 @@ const Experience = () => {
   return (
     <div id="experience-container">
       <div id="side-menu">
-        <a className="tablinks active" onClick={(e) => handleCard(e, "flatiron")}>Flatiron School</a>
-        <a className="tablinks" onClick={(e) => handleCard(e, "piano")}>Piano Technician</a>
-        <a className="tablinks" onClick={(e) => handleCard(e, "masters")}>CUNY Brooklyn College</a>
-        <a className="tablinks" onClick={(e) => handleCard(e, "roli")}>ROLI</a>
+        <button className="tablinks active" onClick={(e) => handleCard(e, "flatiron")}>Flatiron School</button>
+        <button className="tablinks" onClick={(e) => handleCard(e, "piano")}>Piano Technician</button>
+        <button className="tablinks" onClick={(e) => handleCard(e, "masters")}>CUNY Brooklyn College</button>
+        <button className="tablinks" onClick={(e) => handleCard(e, "roli")}>ROLI</button>
       </div>
       <div id="experience-text">
         <div id="flatiron" className="experience-cards">
           <div className="photo-blurb">
-            <img id="flatiron-logo"></img>
             <p id="flatiron-blurb" className="experience-blurbs"> As a student, studied front and back-end development in
               <span className="languages"> JavaScript</span>, <span className="languages">React</span>,
               <span className="languages"> Ruby on Rails</span>, and <span className="languages">Python / Flask</span>.
@@ -50,7 +49,6 @@ const Experience = () => {
         </div>
         <div id="piano" className="experience-cards">
           <div className="photo-blurb">
-            <img id="piano-logo"></img>
             <p id="piano-blurb" className="experience-blurbs"> Provided piano tuning, regulation and repair services
               to an average of 10 clients a week using electronic and ear techniques with
               standard piano tuning and repair tools in order to bring their instrument
@@ -65,7 +63,6 @@ const Experience = () => {
         </div>
         <div id="masters" className="experience-cards">
           <div className="photo-blurb">
-            <img id="bc-logo"></img>
             <p id="masters-blurb" className="experience-blurbs">Earned a Master's in Music (MM) degree in Composition
               with a focus on orchestral and experimental playback. Performed original and existing music in small
               ensembles for live audiences.<br /><br />
@@ -101,7 +98,6 @@ const Experience = () => {
               turnaround for faulty products within the US and Canada from 8 weeks to 2 weeks.
             </p>
           </div>
-          <img id="roli-logo"></img>
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   font-family: 'Sansita', sans-serif;
-  height: 100%;
+  height: 100vh;
 }
 
 #about h2 {

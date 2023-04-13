@@ -1,6 +1,5 @@
 /* experience section */
 #experience {
-  font-family: 'Sansita', sans-serif;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -15,9 +14,9 @@
   flex-direction: row;
   justify-content: right;
   align-items: center;
-  width: 70vw;
-  height: 70vh;
   position: relative;
+  width: 80%;
+  height: 80%;
 }
 
 #side-menu {
@@ -26,6 +25,7 @@
   justify-content: start;
   align-items: end;
   width: 20%;
+  min-width: 75px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -33,7 +33,7 @@
   transition: 0.5s;
 }
 
-#side-menu a {
+#side-menu button {
   font-size: 1.4vw;
   text-align: right;
   color: #bbb;
@@ -43,28 +43,30 @@
   cursor: pointer;
   padding: 15% 5% 2% 0;
   margin-right: 5%;
+  box-shadow: none;
   transition: 0.5s;
 }
 
-#side-menu a:hover {
+#side-menu button:hover {
   background: #1a1c1d;
   color: #aff2fe;
   border-left: 0.2vw solid #23ddff;
   transition: 0.5s;
 }
 
-#side-menu a.active {
+#side-menu button.active {
   background: #1a1c1d;
   color: #ffe21b;
 }
 
 #experience-text {
   width: 80%;
+  min-width: 300px;
   height: 100%;
 }
 
 .experience-blurbs {
-  font-size: 1.6vw;
+  font-size: 1.7vw;
   margin: 0;
 }
 
@@ -73,6 +75,7 @@
   box-sizing: border-box;
   height: 100%;
   margin-left: 5%;
+  margin-top: 0;
   animation: fadeIn 0.5s;
 }
 
@@ -99,4 +102,58 @@
 
 .languages {
   color: #ff2828
+}
+
+@media screen and (max-width: 1000px) {
+  #experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  }
+
+  #side-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    min-width: 300px;
+    height: 40px;
+    position: relative;
+  }
+
+  #side-menu button {
+    font-size: 1em;
+    text-align: left;
+    width: 25%;
+    height: 50px;
+    border-left: 0.1vw solid transparent;
+    border-bottom: 0.2vw dashed #23ddff;
+    padding: 5px;
+    margin: 0;
+  }
+
+  #side-menu button:hover {
+    background: #1a1c1d;
+    color: #aff2fe;
+    border-left: 0.2vw solid transparent;
+    border-bottom: 0.2vw solid #23ddff;
+    transition: 0.5s;
+  }
+
+  #side-menu button.active {
+    background: #1a1c1d;
+    color: #ffe21b;
+  }
+
+  .experience-cards {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .experience-blurbs {
+    font-size: 20px;
+  }
 }

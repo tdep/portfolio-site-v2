@@ -38,14 +38,13 @@ function LandingPage() {
         <h2 className="section-title">About</h2>
         <div className="content-container">
           <About />
-          {/* <SectionConstruction /> */}
         </div>
       </div>
       <hr className="solid"></hr>
       <div id="experience" className="page-container">
-          <h2 className="section-title">Experience</h2>
-          <div className="content-container">
-      <Experience />
+        <h2 className="section-title">Experience</h2>
+        <div className="content-container">
+          <Experience />
       </div>
       </div>
         <hr className="solid"></hr>
