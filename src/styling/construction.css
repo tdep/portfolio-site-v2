@@ -1,0 +1,170 @@
+* {
+  font-family: 'Sansita', sans-serif;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 390px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  font-family: 'Rum Raisin', sans-serif;
+  font-size: 15vw;
+  text-align: center;
+  margin: 1vw 0 1vw 0;
+  width: 100%;
+}
+
+.header-sub {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 5vw;
+  text-align: center;
+  margin: 1vw 0 1vw 0;
+  padding: 0;
+  width: 100%;
+}
+
+.graphic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10vw;
+  min-height: 40px;
+  max-height: 10vw;
+  width: 30%;
+  min-width: 160px;
+  max-width: 30%;
+}
+
+.lights {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 15px;
+  max-height: 30px;
+  min-width: 90%;
+  max-width: 90%;
+}
+
+.blinky-light {
+  height: 6vw;
+  min-height: 15px;
+  max-height: 30px;
+  width: 6vw;
+  min-width: 15px;
+  max-width: 30px;
+  background-color: orange;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#blinky-1 {
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-delay: 200ms;
+}
+
+#blinky-2 {
+  animation-name: blink;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-delay: 120ms;
+}
+
+#blinky-3 {
+  animation-name: blink;
+  animation-duration: 1300ms;
+  animation-iteration-count: infinite;
+}
+
+.construction-bar {
+  background: linear-gradient(-45deg, #ff8400 0%, #ff8400 7%,
+      #fff 7%, #fff 18%, #ff8400 18%, #ff8400 29%, #fff 29%, #fff 40%,
+      #ff8400 40%, #ff8400 51%, #fff 51%, #fff 62%, #ff8400 62%, #ff8400 73%,
+      #fff 73%, #fff 84%, #ff8400 84%, #ff8400 95%, #fff 95%, #fff 100%);
+  height: 60%;
+  min-height: 20px;
+  max-height: 30px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.under-construction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4vw;
+  margin: 20px 0 10px 0;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 4vw;
+  margin: 2% 0 2% 0;
+}
+
+.links {
+  text-align: center;
+  width: 100%;
+}
+
+.links a {
+  margin: 2% 1% 2% 1%;
+}
+
+@media screen and (max-width: 600px) {
+  #blinky-2 {
+    display: none;
+  }
+
+  .header-title {
+    font-size: 90px;
+  }
+
+  .header-sub {
+    font-size: 30px;
+  }
+
+  .under-construction {
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+  }
+
+  .link-container {
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+  }
+}
+
+@keyframes blink {
+  0% {
+    background-color: orange;
+  }
+
+  10% {
+    background-color: yellow;
+  }
+
+  11% {
+    background-color: orange;
+  }
+}
