@@ -1,3 +1,4 @@
+import resume from '../assets/trevor_depew_resume.pdf'
 import '../styling/construction.css'
 
 function SectionConstruction() {
@@ -20,7 +21,7 @@ function SectionConstruction() {
         <div className="links">
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/trevor-depew/">LinkedIn</a>
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/tdep">GitHub</a>
-          <a target="_blank" href="./trevor_depew_resume.pdf">Resume</a>
+          <a target="_blank" rel="noopener noreferrer" href={resume}>Resume</a>
         </div>
       </div>
       <div id="root"></div>
