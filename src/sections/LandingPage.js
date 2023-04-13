@@ -1,4 +1,5 @@
 import SectionConstruction from "../components/SectionConstruction"
+import {trevor} from '../public/assets/portfolio-name-trevor.png'
 import '../styling/App.css'
 import '../styling/landingPage.css'
 
@@ -8,12 +9,12 @@ function LandingPage() {
       <div id="home" className="content-container">
         <div id="header">
           <div id="name" className="title-name">
-            <img id="name-first" className="title-name-svg" src="./public/assets/images/portfolio-name-trevor.png" alt="Trevor" />
+            <img id="name-first" className="title-name-svg" src={trevor} alt="Trevor" />
             {/* <img id="name-last" className="title-name-svg" src={LastName} alt="DePew" /> */}
           </div>
           <div id="title" className="title-name">
-            <img id="title-software" className="title-name-svg" src="public/assets/images/portfolio-title-software.png" alt="Software" />
-            <img id="title-engineer" className="title-name-svg" src="public/assets/images/engineer.svg" alt="Engineer" />
+            {/* <img id="title-software" className="title-name-svg" src="public/assets/images/portfolio-title-software.png" alt="Software" /> */}
+            {/* <img id="title-engineer" className="title-name-svg" src="public/assets/images/engineer.svg" alt="Engineer" /> */}
           </div>
         </div>
         <div id="links">
