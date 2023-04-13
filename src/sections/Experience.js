@@ -43,7 +43,6 @@ const Experience = () => {
               <span id="languages"> CSS</span> concepts.
               Demonstrated and presented applications in front of audiences of students and teachers giving user scenarios
               and explinations of code as well as expereinces thereof.
-
             </p>
           </div>
         </div>

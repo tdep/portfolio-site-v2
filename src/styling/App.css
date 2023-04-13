@@ -57,6 +57,7 @@ a {
   justify-content: center;
   align-items: center;
   height: fit-content;
+  margin: 20px 0 20px 0;
 }
 
 /* scrollbar */
