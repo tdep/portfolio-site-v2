@@ -12,13 +12,13 @@ function LandingPage() {
     <div id="window">
       <div id="home" className="content-container">
         <div id="header">
-          <div id="name" className="title-name">
-            <img id="name-first" className="title-name-svg" src={trevor} alt="Trevor" />
-            <img id="name-last" className="title-name-svg" src={depew} alt="DePew" />
+          <div id="name" className="title-name-container">
+            <img id="name-first" className="title-name" src={trevor} alt="Trevor" />
+            <img id="name-last" className="title-name" src={depew} alt="DePew" />
           </div>
-          <div id="title" className="title-name">
-            <img id="title-software" className="title-name-svg" src={software} alt="Software" />
-            <img id="title-engineer" className="title-name-svg" src={engineer} alt="Engineer" />
+          <div id="title" className="title-name-container">
+            <img id="title-software" className="title-name" src={software} alt="Software" />
+            <img id="title-engineer" className="title-name" src={engineer} alt="Engineer" />
           </div>
         </div>
         <div id="links">
