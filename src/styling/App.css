@@ -42,7 +42,7 @@ a {
 
 .section-title {
   font-family: 'Rum Raisin', sans-serif;
-  font-size: 10vh;
+  font-size: 7vw;
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -71,4 +71,10 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #ff8400
+}
+
+@media screen and (max-width: 600px) { 
+  .section-title {
+    font-size: 35px;
+  }
 }
