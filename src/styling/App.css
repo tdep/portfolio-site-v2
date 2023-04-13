@@ -15,7 +15,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   width: 100%;
   background-image: linear-gradient(black 75%, #0f3005, #082d34);
   color: #bbb;
@@ -36,8 +35,11 @@ a {
 .page-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   width: 80%;
   min-width: 80%;
+  height: fit-content;
+  min-height: fit-content;
 }
 
 .section-title {
@@ -46,6 +48,7 @@ a {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  height: 10%;
 }
 
 .content-container {
@@ -53,7 +56,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90%;
+  height: fit-content;
 }
 
 /* scrollbar */

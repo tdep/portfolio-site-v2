@@ -23,7 +23,7 @@ const Experience = () => {
       <div id="side-menu">
         <button className="tablinks active" onClick={(e) => handleCard(e, "flatiron")}>Flatiron School</button>
         <button className="tablinks" onClick={(e) => handleCard(e, "piano")}>Piano Technician</button>
-        <button className="tablinks" onClick={(e) => handleCard(e, "masters")}>CUNY Brooklyn College</button>
+        <button className="tablinks" onClick={(e) => handleCard(e, "masters")}>Brooklyn College</button>
         <button className="tablinks" onClick={(e) => handleCard(e, "roli")}>ROLI</button>
       </div>
       <div id="experience-text">
