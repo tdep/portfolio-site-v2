@@ -14,7 +14,7 @@ function SectionConstruction() {
       </div>
       <div className="under-construction">
         <span>Welcome to my website! </span>
-        <span>It's currently under construction.</span>
+        <span>This section is currently under construction.</span>
       </div>
       <div className="link-container">
         <h5>In the meantime, check me out at these places:</h5>
