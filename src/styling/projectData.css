@@ -1,0 +1,146 @@
+/* All of the styling for the data that populates the viewer */
+
+.tool-link {
+  height: fit-content;
+  background: #0f0f0f;
+  border: 1px solid #1a1919;
+  border-radius: 1vh;
+  padding: 1vh 0 1vh 1vh;
+  /* padding-left: 1vh; */
+  /* padding-top: 1vh; */
+  box-shadow:
+    5px 0px 5px #0f3005 inset,
+    0px 5px 5px #0f3005 inset,
+    -5px 0px 5px #071702 inset,
+    0px -5px 5px #071702 inset;
+}
+
+.tool-link p {
+  width: 88%;
+  padding: 10px auto 10px auto;
+}
+
+.tool-link a {
+  width: 88%;
+  color: #4fff19;
+  text-decoration: none;
+  padding: 10px auto 10px auto;
+}
+
+.tool-link a:hover {
+  color: #ffc400;
+  text-shadow:
+    5px 0px 5px #554100,
+    0px 5px 5px #554100,
+    -5px 0px 5px #554100,
+    0px -5px 5px #554100;
+  padding: 10px auto 10px auto;
+}
+
+.black-bar {
+  width: 100%;
+  height: 100%;
+  border-radius: 7vh;
+  background: #0f0f0f;
+}
+
+#title {
+  height: 20%;
+  text-align: center;
+  background: #0f0f0f;
+  border-bottom: 1px solid #4fff19;
+  border-radius: 1vh 1vh 0 0;
+  padding: 1vh;
+}
+
+#text {
+  height: 80%;
+  padding: 1vh;
+  border-radius: 0 0 10px 10px;
+}
+
+#text p {
+  width: 88%
+}
+
+#screen {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #272626;
+  box-shadow:
+    5px 0px 5px #4e2d0a,
+    -5px 0px 5px #4e2d0a,
+    0px 5px 5px #4e2d0a,
+    0px -5px 5px #4e2d0a;
+  border-radius: 7vh;
+  background: transparent;
+}
+
+#screen-efx {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  box-shadow:
+    5px 5px 10px #474646 inset,
+    15px 15px 20px #272626 inset,
+    -10px -10px 15px #1a1919 inset,
+    -20px -20px 30px #272626 inset;
+  border-radius: 7vh;
+}
+
+#screen-flare {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 9%;
+  height: 30%;
+  box-shadow:
+    10px 10px 20px 7px #fff inset,
+    -8px -8px 20px 7px #fff;
+  background-color: transparent;
+  opacity: 3%;
+  border-radius: 50%;
+  rotate: 30deg;
+  margin: 10vh;
+}
+
+#image-efx {
+  position: absolute;
+  width: 99%;
+  height: 70%;
+  border-radius: 1%;
+}
+
+#text-container {
+  height: 70%;
+  background: #969090;
+  border: 1px solid #1a1c1d;
+  margin: 0.5vw;
+}
+
+#description-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 60%;
+  background: #0f0f0f;
+  border: 1px solid #1a1919;
+  border-radius: 1vh;
+  margin-top: 0.5vw;
+}
+
+#tool-link-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  justify-content: space-around;
+  height: 60%;
+}

@@ -1,0 +1,227 @@
+/* All of the styling for the project viewer itself */
+
+.external-container-shadows {
+  box-shadow:
+    5px 0px 5px #4e2d0a inset,
+    3px 3px 5px #6f410f inset,
+    0px 5px 5px #4e2d0a inset,
+    -5px 0px 5px #4e2d0a inset,
+    -3px -3px 5px #3a2208 inset,
+    0px -5px 5px #4e2d0a inset;
+}
+
+.internal-container-shadows {
+  box-shadow:
+    5px 0px 5px #4e2d0a,
+    -5px 0px 5px #4e2d0a,
+    0px 5px 5px #4e2d0a,
+    0px -5px 5px #4e2d0a;
+}
+
+.panel-shadows {
+  box-shadow:
+    3px 0px 2px #0f0f0f inset,
+    0px 3px 2px #0f0f0f inset,
+    -3px 0px 2px #484545 inset,
+    0px -3px 2px #484545 inset;
+}
+
+.text-container-shadows {
+  text-shadow:
+    5px 0px 5px #0f3005,
+    0px 5px 5px #0f3005,
+    -5px 0px 5px #0f3005,
+    0px -5px 5px #0f3005;
+}
+
+.internal-text-container-shadows {
+  box-shadow:
+    5px 0px 5px #0f3005 inset,
+    0px 5px 5px #0f3005 inset,
+    -5px 0px 5px #071702 inset,
+    0px -5px 5px #071702 inset;
+}
+
+.text-styling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  color: #4fff19;
+  width: 95%;
+}
+
+/* External containers */
+
+#chasis {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 95%;
+  border-radius: 0.8vh;
+  background: #5e360c;
+}
+
+#screen-container {
+  width: 65%;
+  height: 95%;
+  border-radius: 7vh;
+  margin: 1vw;
+}
+
+#control-panel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  height: 95%;
+  border: 2px solid #272626;
+  background-color: #1a1c1d;
+  margin: 1vw;
+}
+
+/* Control Panel */
+
+#control-panel {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 30%;
+  color: #0f0f0f;
+  background: #969090;
+  margin: 0.5vw;
+}
+
+#selector-indicator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#selector-container {
+  display: flex;
+  flex-direction: column;
+  width: 98%;
+  height: 80%;
+}
+
+#channel-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 5%;
+  margin: 20px 0 20px 0;
+}
+
+#indicator-container {
+  width: 98%;
+  height: 98%;
+  padding: 2px;
+  margin: 2px;
+}
+
+#indicators {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(4, 25%);
+  height: 100%;
+
+}
+
+/* Power Container */
+
+#power-control-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#switch-light-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+  height: 80%;
+}
+
+#power-switch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 98%;
+}
+
+/* Power Light */
+
+#power-light-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+#power-light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3vw;
+  height: 3vw;
+  box-shadow:
+    1px 3px 5px 2px #474646,
+    4px 6px 6px 0px #bb8282 inset,
+    8px 12px 12px 0px #936060 inset,
+    -6px -4px 6px 0px #4d0c0c inset,
+    -12px -8px 12px 0px #851414 inset;
+  background: #811414;
+  border-radius: 50%;
+  transition: 2000ms;
+  transition-delay: 1000ms
+}
+
+#power-light.pwr-on {
+  top: 0px;
+  background: #ff2828;
+  box-shadow:
+    1px 3px 20px 8px #b11c1cd0,
+    4px 6px 6px 0px #bb8282 inset,
+    8px 12px 12px 0px #936060 inset,
+    -6px -4px 6px 0px #851414 inset,
+    -12px -8px 12px 12px #851414 inset;
+}
+
+#middle-ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  height: 85%;
+  border: 2px solid #4d0c0c;
+  border-radius: 50%;
+}
+
+#inner-ring {
+  width: 80%;
+  height: 80%;
+  border: 2px solid #4d0c0c;
+  border-radius: 50%;
+}
+
+#power-light.off {
+  top: 0px;
+}

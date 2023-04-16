@@ -1,0 +1,131 @@
+/* All of the styling for site-wide buttons */
+
+/* project viewer */
+/* general buttons */
+
+.button {
+  user-select: none;
+  position: relative;
+  top: 0px;
+  font-family: 'Sansita', sans-serif;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #bba782;
+  box-shadow:
+    1px 1px 1px #bbb inset,
+    -1px -1px 1px #6a6a6a inset,
+    0px 2px 0px #554100,
+    0px 3px 4px #071702;
+}
+
+.button:hover {
+  opacity: 78%;
+}
+
+.power-toggle {
+  font-family: 'Orbitron', sans-serif;
+  color: #0f0f0f;
+}
+
+.pwr-on {
+  position: relative;
+  top: 4px;
+  background-color: #ffe21b;
+  box-shadow:
+    0px 1px 1px #c89a02 inset,
+    -1px -1px 1px #c89a02 inset,
+    1px -1px 1px #554100,
+    0px -3px 4px #f8cf49,
+    -1px 0px 4px #f8cf49,
+    1px 1px 2px #f8cf49;
+}
+
+.off {
+  top: 4px;
+  background-color: #a98202;
+  box-shadow:
+    0px 0px 1px #c89a02 inset,
+    0px 0px 1px #c89a02 inset,
+    1px -1px 1px #554100,
+    0px 0px 0px #f8cf49,
+    0px 0px 0px #f8cf49,
+    0px 0px 0px #f8cf49;
+}
+
+.matrix {
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+
+/* project viewer */
+/* power buttons */
+
+#power-switch-container span {
+  width: 50%;
+  height: 25%;
+}
+
+#on-btn {
+  background-color: #194d09;
+  box-shadow:
+    1px 1px 1px #4b6443 inset,
+    -1px -1px 1px #303f2b inset,
+    0px 3px 0px #0f0f0f,
+}
+
+#on-btn.pwr-on {
+  background-color: #45cd1b;
+  box-shadow:
+    0px 2px 2px #349c14 inset,
+    -2px 0px 2px #349c14 inset,
+    0px 0px 0px #194d09,
+    0px -3px 4px #37b511,
+    -1px 0px 4px #37b511,
+    1px 1px 2px #37b511;
+}
+
+#off-btn {
+  background-color: #b11c1c;
+  box-shadow:
+    1px 1px 1px #844444 inset,
+    -1px -1px 1px #692e2e inset,
+    0px 3px 0px #4d0c0c,
+}
+
+#off-btn:active {
+  background-color: #d12222;
+  top: 4px;
+  box-shadow:
+    0px 1px 3px #4d0c0c inset,
+    -1px 0px 3px #4d0c0c inset,
+    0px 0px 0px #4d0c0c;
+}
+
+/* project viewer */
+/* project matrix buttons */
+
+#indicators span {
+  border-radius: 2px;
+}
+
+#indicators span.matrix.pwr-on {
+  top: 0px;
+}
+
+#indicators span.matrix.off {
+  top: 0px;
+}
+
+/* project viewer */
+/* iterator buttons */
+
+#channel-btn-container span {
+  font-size: 20px;
+  width: 28%;
+  height: fit-content;
+}

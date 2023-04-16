@@ -1,0 +1,22 @@
+/* projects section styling*/
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Sansita', sans-serif;
+  height: 100vh;
+}
+
+#projects h2 {
+  color: #4fff19;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  /* border: 1px solid #bbb */
+}

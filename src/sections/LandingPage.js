@@ -1,6 +1,7 @@
 import SectionConstruction from "../components/SectionConstruction"
 import About from "./About"
 import Experience from "./Experience"
+import Projects from "./Projects"
 import trevor from '../assets/portfolio-name-trevor.png'
 import depew from '../assets/portfolio-name-depew.png'
 import software from '../assets/portfolio-title-software.png'
@@ -45,16 +46,15 @@ function LandingPage() {
         <h2 className="section-title">Experience</h2>
         <div className="content-container">
           <Experience />
-      </div>
+        </div>
       </div>
         <hr className="solid"></hr>
         <div id="projects" className="page-container">
           <h2 className="section-title">Projects</h2>
           <div className="content-container">
-            <SectionConstruction />
-      {/* <Projects /> */}
-      </div>
-      </div>
+            <Projects />
+          </div>
+        </div>
         <hr className="solid"></hr>
         <div id="contact" className="page-container">
           <h2 className="section-title">Contact</h2>
