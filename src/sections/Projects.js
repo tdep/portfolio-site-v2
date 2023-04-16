@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react"
 import { db } from "../utils/firebase"
 import { onValue, ref } from "firebase/database"
+import "../assets/tadlab_demo.gif"
+
 import "../styling/projects.css"
 import "../styling/viewer.css"
 import "../styling/projectData.css"
