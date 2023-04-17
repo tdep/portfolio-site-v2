@@ -56,8 +56,11 @@
 #chasis {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 95%;
+  min-height: 650px;
   border-radius: 0.8vh;
   background: #5e360c;
 }
@@ -65,8 +68,9 @@
 #screen-container {
   width: 65%;
   height: 95%;
-  border-radius: 7vh;
-  margin: 1vw;
+  min-height: 585px;
+  border-radius: 75px;
+  margin: 15px;
 }
 
 #control-panel-container {
@@ -75,9 +79,10 @@
   align-items: center;
   width: 35%;
   height: 95%;
+  min-height: 585px;
   border: 2px solid #272626;
   background-color: #1a1c1d;
-  margin: 1vw;
+  margin: 15px;
 }
 
 /* Control Panel */
@@ -90,9 +95,10 @@
   justify-content: center;
   width: 95%;
   height: 30%;
+  min-height: 175px;
   color: #0f0f0f;
   background: #969090;
-  margin: 0.5vw;
+  margin: 8px;
 }
 
 #selector-indicator-container {
@@ -102,7 +108,8 @@
   justify-content: center;
   width: 50%;
   height: 100%;
-  border: 1px solid black;
+  min-height: 175px;
+  border-right: 1px solid black;
 }
 
 #selector-container {
@@ -110,6 +117,7 @@
   flex-direction: column;
   width: 98%;
   height: 80%;
+  min-height: 140px;
 }
 
 #channel-btn-container {
@@ -118,12 +126,14 @@
   justify-content: space-around;
   width: 100%;
   height: 5%;
+  min-height: 25px;
   margin: 20px 0 20px 0;
 }
 
 #indicator-container {
   width: 98%;
   height: 98%;
+  min-height: 115px;
   padding: 2px;
   margin: 2px;
 }
@@ -133,7 +143,7 @@
   grid-template-columns: repeat(5, 20%);
   grid-template-rows: repeat(4, 25%);
   height: 100%;
-
+  min-height: 110px;
 }
 
 /* Power Container */
@@ -145,7 +155,7 @@
   justify-content: center;
   width: 50%;
   height: 100%;
-  border: 1px solid black;
+  min-height: 175px;
 }
 
 #switch-light-container {
@@ -154,7 +164,8 @@
   align-items: center;
   justify-content: center;
   width: 98%;
-  height: 80%;
+  height: 100%;
+  min-height: 175px;
 }
 
 #power-switch-container {
@@ -164,6 +175,7 @@
   justify-content: center;
   width: 50%;
   height: 98%;
+  min-height: 175px;
 }
 
 /* Power Light */
