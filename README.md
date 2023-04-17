@@ -5,7 +5,7 @@ Here is my portfolio website! A living webpage that features projects that I hav
 
 It will be updated periodically with newer and better-er projects, stylings, layouts and more features! Always more features!
 
-Currently it is being hosted using Firebase and can be accessed at www.trevordepew.com!
+Currently it is being hosted using Firebase and can be accessed at trevordepew.com!
 
 This is the third iteration, the first was a build that I was working on to figure out what I wanted to do. The second was an app created using Vite and GitHub Pages, but I ran into a number of issues that were taking too much time. So we have this version using Create React App and Firebase!
 
