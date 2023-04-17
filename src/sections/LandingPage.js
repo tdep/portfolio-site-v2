@@ -19,7 +19,7 @@ function LandingPage() {
             <img id="name-first" className="title-name" src={trevor} alt="Trevor" />
             <img id="name-last" className="title-name" src={depew} alt="DePew" />
           </div>
-          <div id="title" className="title-name-container">
+          <div className="title-name-container">
             <img id="title-software" className="title-name" src={software} alt="Software" />
             <img id="title-engineer" className="title-name" src={engineer} alt="Engineer" />
           </div>

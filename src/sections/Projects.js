@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react"
 import { db } from "../utils/firebase"
 import { onValue, ref } from "firebase/database"
-import "../assets/tadlab_demo.gif"
+import tadlab from "../assets/tadlab_demo.gif"
+import sequinzer from "../assets/sequinzer_demo_4.gif"
+import cheekers from "../assets/cheekers_demo.png"
+import webaudio from "../assets/webaudio_demo.gif"
 
 import "../styling/projects.css"
 import "../styling/viewer.css"
@@ -11,11 +14,12 @@ import "../styling/buttons.css"
 const Projects = () => {
   const auto = document.getElementById("auto-scroll")
   let channels = [
-    { ch: "1" }, { ch: "2" }, { ch: "3" }, { ch: "" }, { ch: "" },
+    { ch: "1" }, { ch: "2" }, { ch: "3" }, { ch: "4" }, { ch: "" },
     { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" },
     { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" },
     { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" }
   ]
+  const images = [ tadlab, sequinzer, cheekers, webaudio ];
   const [projects, setProjects] = useState([])
   const [loading, setLoading] = useState(true)
   const [power, setPower] = useState(true)
@@ -198,6 +202,11 @@ const Projects = () => {
     // change classname to omit "matrix" and allow buttons to be depressed
   }
 
+  // handle images
+  function handleImages(index) {
+    return images[index]
+  }
+
   if (loading) {
     return (<div>Loading...</div>)
   } else {
@@ -208,7 +217,7 @@ const Projects = () => {
             <div id="bar-top" className="black-bar">
               <div id="screen">
                 <img
-                  src={projects[activeIndex].img}
+                  src={handleImages(activeIndex)}
                   style={{
                     width: "99%",
                     height: "70%",
