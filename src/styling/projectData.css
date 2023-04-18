@@ -1,11 +1,12 @@
 /* All of the styling for the data that populates the viewer */
 
 .tool-link {
-  height: fit-content;
+  height:20px;
+  min-height: 20px;
   background: #0f0f0f;
   border: 1px solid #1a1919;
-  border-radius: 1vh;
-  padding: 1vh 0 1vh 1vh;
+  border-radius: 8px;
+  padding: 8px 0 8px 8px;
   /* padding-left: 1vh; */
   /* padding-top: 1vh; */
   box-shadow:
@@ -50,22 +51,33 @@
 }
 
 #title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   height: 20%;
-  text-align: center;
+  min-height: 40px;
   background: #0f0f0f;
   border-bottom: 1px solid #4fff19;
-  border-radius: 1vh 1vh 0 0;
-  padding: 1vh;
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+}
+
+#title h2 {
+  padding-left: 5px;
 }
 
 #text {
   height: 80%;
-  padding: 1vh;
+  min-height: 205px;
+  padding: 5px;
   border-radius: 0 0 10px 10px;
+  overflow-y: auto;
 }
 
 #text p {
-  width: 88%
+  width: 88%;
+  padding-left: 5px;
 }
 
 #screen {
@@ -130,7 +142,7 @@
   min-height: 410px;
   background: #969090;
   border: 1px solid #1a1c1d;
-  margin: 0.5vw;
+  margin: 2px;
 }
 
 #description-container {
@@ -138,10 +150,11 @@
   flex-direction: column;
   width: 95%;
   height: 60%;
+  min-height: 245px;
   background: #0f0f0f;
   border: 1px solid #1a1919;
-  border-radius: 1vh;
-  margin-top: 0.5vw;
+  border-radius: 15px;
+  margin-top: 5px;
 }
 
 #tool-link-container {
@@ -150,4 +163,10 @@
   width: 95%;
   justify-content: space-around;
   height: 60%;
+  min-height: 165px;
+}
+
+#tool-link-1 {
+  height: 40px;
+  min-height: 40px;
 }

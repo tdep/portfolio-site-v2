@@ -220,7 +220,10 @@ const Projects = () => {
                   src={handleImages(activeIndex)}
                   style={{
                     width: "99%",
+                    minWidth: "507px",
                     height: "70%",
+                    maxHeight: "355px",
+                    minHeight: "285px",
                     borderRadius: "1%"
                   }}
                   alt="projects"
@@ -276,7 +279,7 @@ const Projects = () => {
             <div id="text-container" className="panel-shadows text-container-shadows text-styling">
               <div id="description-container">
                 <div id="title" className="internal-text-container-shadows">
-                  <h1>{projects[activeIndex].title}</h1>
+                  <h2>{projects[activeIndex].title}</h2>
                 </div>
                 <div id="text" className="internal-text-container-shadows">
                   <p>{projects[activeIndex].description}</p>
