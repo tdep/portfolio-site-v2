@@ -70,9 +70,10 @@
 #text {
   height: 80%;
   min-height: 205px;
+  max-height: 80%;
   padding: 5px;
   border-radius: 0 0 10px 10px;
-  overflow-y: auto;
+  overflow: auto;
 }
 
 #text p {
@@ -170,3 +171,52 @@
   height: 40px;
   min-height: 40px;
 }
+
+/* Medium screens */
+@media screen and (max-width: 1450px) {
+}
+
+/* Small screens */
+@media screen and (max-width: 1250px) {
+  .black-bar {
+    height: 445px;
+    min-height: 445px;
+  }
+
+  #screen {
+    height: 445px;
+    min-height: 445px;
+  }
+
+  #screen img {
+    height: 440px;
+    min-height: 440px;
+  }
+
+  #text-container {
+    height: 198px;
+    max-height: 198px;
+    min-height: 150px;
+  }
+  #description-container {
+    height: 195px;
+    min-height: 148px;
+    overflow: auto;
+  }
+  #tool-link-container {
+      display: none;
+  }
+  
+}
+
+/* Tablets */
+@media screen and (max-width: 1100px) {
+  #description-container {
+    display: none;
+  }
+
+
+}
+
+/* Phones */
+@media screen and (max-width: 600px) {}

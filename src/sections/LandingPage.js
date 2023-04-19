@@ -51,7 +51,7 @@ function LandingPage() {
         <hr className="solid"></hr>
         <div id="projects" className="page-container">
           <h2 className="section-title">Projects</h2>
-          <div className="content-container">
+          <div id="project-content-container" className="content-container">
             <Projects />
           </div>
         </div>

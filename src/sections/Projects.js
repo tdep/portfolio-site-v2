@@ -222,7 +222,7 @@ const Projects = () => {
                     width: "99%",
                     minWidth: "507px",
                     height: "70%",
-                    maxHeight: "355px",
+                    maxHeight: "445px",
                     minHeight: "285px",
                     borderRadius: "1%"
                   }}
