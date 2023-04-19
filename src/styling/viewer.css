@@ -251,32 +251,49 @@
 @media screen and (max-width: 1250px) {
   #chasis {
     flex-direction: column;
+    justify-content: flex-end;
     width: 940px;
-    height: 650px;
+    height: 720px;
+    min-height: 720px;
   }
 
   #screen-container {
-    height: 445px;
-    min-height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    min-width: 750px;
+    height: 474px;
+    min-height: 474px;
     background: #5e360c;
     border-radius: 15px;
-
+    margin: 5px;
+    box-shadow: 
+      5px 0px 5px 0px #3a2208,
+      -5px 0px 5px 0px #3a2208,
+      -2px 0px 2px 0px #3a2208 inset,
+      2px 2px 2px 0px #5e360c;
   }
   
   #control-panel-container {
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: flex-end;
     width: 910px;
     min-width: 650px;
-    height: 208px;
-    min-height: 208px;
+    height: 270px;
+    min-height: 270px;
+    margin: 15px;
+    margin-top: 20px;
   }
 
   #control-panel {
     width: 445px;
     min-width: 445px;
-    height: 200px;
-    min-height: 200px;
+    height: 210px;
+    min-height: 210px;
   }
 
   #selector-indicator-container {

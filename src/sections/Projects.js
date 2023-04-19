@@ -217,15 +217,8 @@ const Projects = () => {
             <div id="bar-top" className="black-bar">
               <div id="screen">
                 <img
+                  id="project-img"
                   src={handleImages(activeIndex)}
-                  style={{
-                    width: "99%",
-                    minWidth: "507px",
-                    height: "70%",
-                    maxHeight: "445px",
-                    minHeight: "285px",
-                    borderRadius: "1%"
-                  }}
                   alt="projects"
                 />
                 <div id="image-efx"></div>

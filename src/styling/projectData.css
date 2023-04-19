@@ -131,6 +131,15 @@
   margin: 10vh;
 }
 
+#project-img {
+  width: 99%;
+  min-width: 507px;
+  height: 70%;
+  max-height: 445px;
+  min-height: 285px;
+  border-radius: 1%;
+}
+
 #image-efx {
   position: absolute;
   width: 99%;
@@ -179,25 +188,34 @@
 /* Small screens */
 @media screen and (max-width: 1250px) {
   .black-bar {
-    height: 445px;
-    min-height: 445px;
+    width: 724px;
+    min-width: 724px;
+    height: 456px;
+    min-height: 456px;
   }
 
   #screen {
-    height: 445px;
-    min-height: 445px;
+    height: 456px;
+    min-height: 456px;
+    width: 724px;
+    min-width: 724px;
   }
 
-  #screen img {
-    height: 440px;
-    min-height: 440px;
+  #project-img {
+    height: 436px;
+    min-height: 436px;
+    width: 720px;
+    min-width: 720px;
+    border-radius: 65px;
   }
 
   #text-container {
-    height: 198px;
-    max-height: 198px;
-    min-height: 150px;
+    height: 210px;
+    max-height: 210px;
+    min-height: 210px;
+    margin: 8px;
   }
+
   #description-container {
     height: 195px;
     min-height: 148px;
