@@ -1,14 +1,16 @@
 /* All of the styling for the data that populates the viewer */
 
 .tool-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   height:20px;
   min-height: 20px;
   background: #0f0f0f;
   border: 1px solid #1a1919;
   border-radius: 8px;
   padding: 8px 0 8px 8px;
-  /* padding-left: 1vh; */
-  /* padding-top: 1vh; */
   box-shadow:
     5px 0px 5px #0f3005 inset,
     0px 5px 5px #0f3005 inset,
@@ -18,7 +20,7 @@
 
 .tool-link p {
   width: 88%;
-  padding: 10px auto 10px auto;
+  /* padding: 10px auto 10px auto; */
 }
 
 .tool-link a {
@@ -66,20 +68,18 @@
 }
 
 #title h2 {
-  position: absolute;
   font-size: 140%; 
   line-height: 100%;
   text-overflow: clip;
   text-align: left;
   width: 100%;
   padding-left: 5px;
-  transform: translateX(100%);
-  animation: scroll-left 12s linear infinite;
+  transform: translateX(0%);
 }
 
-@keyframes scroll-left {
-  0% {transform: translateX(100%);}
-  100% {transform: translateX(-100%);}
+.animate-title {
+  position: absolute;
+  animation: scroll-left 8s linear infinite;
 }
 
 #text {
@@ -165,7 +165,7 @@
 
 #text-container {
   height: 70%;
-  min-height: 410px;
+  min-height: 70%;
   background: #969090;
   border: 1px solid #1a1c1d;
   margin: 2px;
@@ -176,7 +176,7 @@
   flex-direction: column;
   width: 95%;
   height: 60%;
-  min-height: 245px;
+  min-height: 60%;
   background: #0f0f0f;
   border: 1px solid #1a1919;
   border-radius: 15px;
@@ -186,24 +186,90 @@
 #tool-link-container {
   display: flex;
   flex-direction: column;
-  width: 95%;
   justify-content: space-around;
+  position: relative;
+  width: 95%;
   height: 60%;
   min-height: 165px;
 }
 
 #tool-link-1 {
-  height: 40px;
-  min-height: 40px;
+  overflow: hidden;
+}
+
+#tool-link-1 p {
+  font-size: 100%;
+  line-height: 200%;
+  text-overflow: clip;
+  text-align: left;
+  width: 100%;
+  transform: translateY(25%);
+}
+
+.animate-tool {
+  position: relative;
+  animation: scroll-up 4s infinite ease-in-out;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(25%);
+  }
+
+  33% {
+    transform: translateY(25%);
+  }
+
+  66% {
+    transform: translateY(-25%);
+  }
+
+  100% {
+    transform: translateY(-25%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* Medium screens */
 
-@media screen and (max-width:1600px) {
+@media screen and (width: 1366px) and (height: 768px) {
+  #text {
 
+  }
+
+  #text p {
+
+  }
+
+  #description-container {
+
+  }
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (width: 1280px) and (height: 1040px) {
+  #text {
+
+  }
+
+  #text p {
+
+  }
+
+  #description-container {
+
+  }
+
 }
 
 /* Small screens */

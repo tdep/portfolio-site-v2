@@ -272,7 +272,9 @@ const Projects = () => {
             <div id="text-container" className="panel-shadows text-container-shadows text-styling">
               <div id="description-container">
                 <div id="title" className="internal-text-container-shadows">
-                  <h2>{projects[activeIndex].title}</h2>
+                  <h2 className={projects[activeIndex].title.length > 14 ? "animate-title" : ""}>
+                    {projects[activeIndex].title}
+                  </h2>
                 </div>
                 <div id="text" className="internal-text-container-shadows">
                   <p>{projects[activeIndex].description}</p>
@@ -280,7 +282,8 @@ const Projects = () => {
               </div>
               <div id="tool-link-container">
                 <div id="tool-link-1" className="tool-link">
-                  <p>{projects[activeIndex].tools.map((tool, i) => {
+                  <p className={projects[activeIndex].tools.length > 2 ? "animate-tool" : ""}>
+                    {projects[activeIndex].tools.map((tool, i) => {
                     if (i === (projects[activeIndex].tools.length) - 1) {
                       return (tool)
                     } else {
