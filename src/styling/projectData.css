@@ -55,29 +55,45 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  position: relative;
   height: 20%;
   min-height: 40px;
   background: #0f0f0f;
   border-bottom: 1px solid #4fff19;
-  border-radius: 10px 10px 0 0;
+  border-radius: 15px 15px 0 0;
   padding: 5px;
+  overflow: hidden;
 }
 
 #title h2 {
+  position: absolute;
+  font-size: 140%; 
+  line-height: 100%;
+  text-overflow: clip;
+  text-align: left;
+  width: 100%;
   padding-left: 5px;
+  transform: translateX(100%);
+  animation: scroll-left 12s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-100%);}
 }
 
 #text {
   height: 80%;
-  min-height: 205px;
+  min-height: 80%;
   max-height: 80%;
-  padding: 5px;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 15px 15px;
+  padding: 5px auto 0px 5px;
   overflow: auto;
 }
 
 #text p {
   width: 88%;
+  font-size: 100%;
   padding-left: 5px;
 }
 
@@ -134,8 +150,8 @@
 #project-img {
   width: 99%;
   min-width: 507px;
-  height: 70%;
-  max-height: 445px;
+  /* height: 70%; */
+  max-height: 550px;
   min-height: 285px;
   border-radius: 1%;
 }
@@ -164,7 +180,7 @@
   background: #0f0f0f;
   border: 1px solid #1a1919;
   border-radius: 15px;
-  margin-top: 5px;
+  margin-top: 5%;
 }
 
 #tool-link-container {
@@ -182,6 +198,11 @@
 }
 
 /* Medium screens */
+
+@media screen and (max-width:1600px) {
+
+}
+
 @media screen and (max-width: 1450px) {
 }
 
@@ -229,12 +250,52 @@
 
 /* Tablets */
 @media screen and (max-width: 1100px) {
-  #description-container {
+  .black-bar {
+    width: 720px;
+    min-width: 580px;
+    height: 450px;
+    min-height: 340px;
+  }
+  #screen {
+    width: 720px;
+    min-width: 580px;
+    height: 450px;
+    min-height: 340px;
+  }
+  #project-img {
+    display: none;
+    width: 720px;
+    min-width: 580px;
+    height: 450px;
+    min-height: 340px;
+  }
+  #text-container {
     display: none;
   }
-
 
 }
 
 /* Phones */
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+  .black-bar {
+      width: 580px;
+      min-width: 285px;
+      height: 340px;
+      min-height: 200px;
+    }
+
+    #screen {
+      width: 580px;
+      min-width: 285px;
+      height: 340px;
+      min-height: 200px;
+    }
+
+    #project-img {
+      display: none;
+      width: 580px;
+      min-width: 285px;
+      height: 340px;
+      min-height: 200px;
+    }
+}
