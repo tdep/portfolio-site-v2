@@ -78,7 +78,9 @@
 
 .animate-title {
   position: absolute;
-  animation: scroll-left 8s linear infinite;
+  animation: scroll-left 4s infinite ease-in-out;
+  animation-direction: alternate;
+  animation-delay: 2s;
 }
 
 #text {
@@ -165,8 +167,8 @@
 }
 
 #text-container {
-  height: 70%;
-  min-height: 70%;
+  height: 66%;
+  min-height: 66%;
   background: #969090;
   border: 1px solid #1a1c1d;
   margin: 2px;
@@ -197,7 +199,6 @@
 
 #tool-link-1 {
   overflow: hidden;
-  transform: translateY(25%);
 }
 
 #tool-link-1 p {
@@ -240,86 +241,70 @@
     transform: translateX(0%);
   }
 
+  33% {
+    transform: translateX(0%);
+  }
+
+  66% {
+    transform: translateX(-5%);
+  }
+
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-5%);
   }
-}
-
-/* Medium screens */
-
-@media screen and (width: 1366px) and (height: 768px) {
-  #text {
-
-  }
-
-  #text p {
-
-  }
-
-  #description-container {
-
-  }
-}
-
-@media screen and (width: 1280px) and (height: 1040px) {
-  #text {
-
-  }
-
-  #text p {
-
-  }
-
-  #description-container {
-
-  }
-
 }
 
 /* Small screens */
 @media screen and (max-width: 1250px) {
   .black-bar {
-    width: 724px;
-    min-width: 724px;
-    height: 456px;
-    min-height: 456px;
+    width: 100%;
+    min-width: 100%;
+    height: 90%;
+    min-height: 90%;
+
   }
 
   #screen {
-    height: 456px;
-    min-height: 456px;
-    width: 724px;
-    min-width: 724px;
+    width: 100%;
+    min-width: 100%;
+    height: 100%;
+    min-height: 100%;
   }
 
   #project-img {
-    height: 436px;
-    min-height: 436px;
-    width: 720px;
-    min-width: 720px;
-    border-radius: 65px;
+    width: 98%;
+    min-width: 98%;
+    height: 96%;
+    min-height: 96%;
+    border-radius: 70px;
   }
 
   #text-container {
-    height: 210px;
-    max-height: 210px;
-    min-height: 210px;
+    width: 96%;
+    min-width: 96%;
+    height: 60%;
+    min-height: 60%;
     margin: 8px;
   }
 
   #description-container {
-    height: 195px;
-    min-height: 148px;
-    overflow: auto;
+
+
   }
   #tool-link-container {
-      display: none;
+
   }
   
 }
 
+@media screen and (max-width: 768px) {
+  #project-img {
+    border-radius: 55px;
+  }
+}
+
 /* Tablets */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 110px) {
   .black-bar {
     width: 720px;
     min-width: 580px;
@@ -346,7 +331,7 @@
 }
 
 /* Phones */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 60px) {
   .black-bar {
       width: 580px;
       min-width: 285px;

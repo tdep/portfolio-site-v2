@@ -129,3 +129,13 @@
   width: 28%;
   height: fit-content;
 }
+
+@media screen and (max-width: 1250px) {
+  #channel-btn-container span {
+    width: 15%;
+    min-width: 15%;
+    height: 50%;
+    min-height: 50%;
+    margin: 0 10px 0 10px;
+  }
+}
