@@ -33,26 +33,15 @@
   }
 }
 
-@media screen and (max-width: 1450px) {
-
-}
-
-/* Small screens */
-@media screen and (max-width: 1250px) {
-
-}
-
-/* Tablets */
-@media screen and (max-width: 1100px) {
-
-}
-
-/* Phones */
-@media screen and (max-width: 850px) {
-
-}
-@media screen and (max-width: 600px) {
-    #project-container {
-        min-width: 290px;
-      }
+@media screen and (max-width: 602px) {
+    #project-content-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      min-width: 290px;
+    }
+    #projects-container {
+      width: 100%;
+      min-width: 100%;
+    }
 }

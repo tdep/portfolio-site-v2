@@ -130,7 +130,41 @@
   height: fit-content;
 }
 
+/* Tablets */
+
 @media screen and (max-width: 1250px) {
+  #channel-btn-container span {
+    font-size: 2.5vw;
+    width: 15%;
+    min-width: 15%;
+    height: 80%;
+    min-height: 80%;
+    margin: 0 10px 0 10px;
+  }
+
+  #power-switch-container span {
+    font-size: 2.5vw;
+    width: 30%;
+    min-width: 30%;
+    height: 92%;
+    min-height: 92%;
+  }
+
+  #on-btn {
+    width: 33%;
+    min-width: 33%;
+    height: 92%;
+    min-height: 92%;
+  }
+
+  .pwr-on {
+    top: 3px;
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 602px) {
   #channel-btn-container span {
     font-size: 2.5vw;
     width: 15%;

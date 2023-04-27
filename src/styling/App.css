@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-image: linear-gradient(rgb(255, 255, 255) 75%, #0f3005, #082d34);
+  background-image: linear-gradient(rgb(0, 0, 0) 75%, #0f3005, #082d34);
   color: #bbb;
 }
 
