@@ -348,8 +348,9 @@
     right: 0;
     width: 40%;
     min-width: 40%;
-    height: 25%;
-    min-height: 25%;
+    height: 18%;
+    min-height: 18%;
+    margin-top: 1.25%;
   }
 
   #switch-light-container {
@@ -376,7 +377,10 @@
   }
 
   #power-light {
-    margin-top: 5%;
+    width: 50%;
+    min-width: 50%;
+    height: 100%;
+    min-height: 100%;
   }
 
 
