@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  font-size: 1.9vw;
   height:20px;
   min-height: 20px;
   background: #0f0f0f;
@@ -67,7 +68,8 @@
 }
 
 #title h2 {
-  font-size: 140%; 
+  font-size: 3.4vw;
+  white-space: nowrap;
   line-height: 100%;
   text-overflow: clip;
   text-align: left;
@@ -86,7 +88,7 @@
 #text {
   height: 80%;
   min-height: 80%;
-  max-height: 80%;
+  font-size: 1.8vw;
   border-radius: 0 0 15px 15px;
   padding: 5px auto 0px 5px;
 }
@@ -94,7 +96,6 @@
 #text p {
   width: 88%;
   height: 94%;
-  font-size: 100%;
   padding-left: 5px;
   overflow: auto;
   margin-top: 2%;
@@ -202,7 +203,6 @@
 }
 
 #tool-link-1 p {
-  font-size: 100%;
   line-height: 200%;
   text-overflow: clip;
   text-align: left;
@@ -280,6 +280,10 @@
   }
 
   #text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 96%;
     min-width: 96%;
     height: 60%;
@@ -288,11 +292,43 @@
   }
 
   #description-container {
-
+    width: 45%;
+    min-width: 45%;
+    height: 90%;
+    min-height: 90%;
+    margin: 2%;
 
   }
-  #tool-link-container {
 
+  #text {
+    height: 76%;
+    min-height: 76%;
+  }
+
+  #tool-link-container {
+    width: 45%;
+    min-width: 45%;
+    height: 90%;
+    min-height: 90%;
+    margin: 2%;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+
+    33% {
+      transform: translateX(0%);
+    }
+
+    66% {
+      transform: translateX(-30%);
+    }
+
+    100% {
+      transform: translateX(-30%);
+    }
   }
   
 }
