@@ -394,11 +394,11 @@
 @media screen and (max-width: 602px) {
   #chasis {
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 100%;
     min-width: 100%;
-    height: 85%;
-    min-height: 85%;
+    height: 75%;
+    min-height: 75%;
   }
 
   #screen-container {
@@ -408,43 +408,23 @@
     align-items: center;
     width: 94%;
     min-width: 94%;
-    height: 50%;
-    min-height: 50%;
-    background: #5e360c;
-    border-left: 1px solid #4e2d0a;
-    border-right: 1px solid #4e2d0a;
-    border-radius: 15px 15px 0 0;
-    box-shadow: 
-      inset 5px 0 5px #4e2d0a,
-      inset 3px 3px 5px #6f410f,
-      /* inset 0 5px 5px #4e2d0a, */
-      inset -5px 0 5px #4e2d0a,
-      inset -3px 0px 5px #3a2208;
-      /* inset 0 -5px 5px #4e2d0a;; */
-    margin: 1% 1% 0% 1%;
+    height: 40%;
+    min-height: 40%;
+    margin: 1% 1% 5% 1%;
+    border-radius: 30px;
   }
 
   #control-panel-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    width: 94%;
-    min-width: 94%;
-    height: 55%;
-    min-height: 55%;
-    background: #5e360c;
-    border: 0;
-    border-left: 1px solid #4e2d0a;
-    border-right: 1px solid #4e2d0a;
-    box-shadow: 
-      inset 5px 0 5px #4e2d0a,
-      inset 3px 3px 5px #6f410f,
-      /* inset 0 5px 5px #4e2d0a, */
-      inset -5px 0 5px #4e2d0a,
-      inset -3px 0px 5px #3a2208;
-      /* inset 0 -5px 5px #4e2d0a;; */
-    margin: 0% 1% 0% 1%;
+    align-items: center;
+    width: 86%;
+    min-width: 86%;
+    height: 45%;
+    min-height: 45%;
+    border-radius: 15px;
+    margin: 1% 1% 5% 1%;
   }
 
   #control-panel {
