@@ -134,8 +134,22 @@
   #channel-btn-container span {
     width: 15%;
     min-width: 15%;
-    height: 50%;
-    min-height: 50%;
+    height: 80%;
+    min-height: 80%;
     margin: 0 10px 0 10px;
+  }
+
+  #power-switch-container span {
+    width: 30%;
+    min-width: 30%;
+    height: 100%;
+    min-height: 100%;
+  }
+
+  #on-btn {
+    width: 33%;
+    min-width: 33%;
+    height: 100%;
+    min-height: 100%;
   }
 }
