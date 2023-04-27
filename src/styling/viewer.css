@@ -339,6 +339,10 @@
     min-height: 75%;
   }
 
+  #indicators span {
+    font-size: 3vw;
+  }
+
   #power-control-container {
     display: flex;
     flex-direction: row;

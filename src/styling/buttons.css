@@ -132,6 +132,7 @@
 
 @media screen and (max-width: 1250px) {
   #channel-btn-container span {
+    font-size: 2.5vw;
     width: 15%;
     min-width: 15%;
     height: 80%;
@@ -140,6 +141,7 @@
   }
 
   #power-switch-container span {
+    font-size: 2.5vw;
     width: 30%;
     min-width: 30%;
     height: 92%;
