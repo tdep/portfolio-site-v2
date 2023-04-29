@@ -40,13 +40,14 @@ a {
   min-width: 80%;
   height: 110vh;
   min-height: fit-content;
+  margin-bottom: 8%;
 }
 
 .section-title {
   font-family: 'Rum Raisin', sans-serif;
   font-size: 7vw;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0 0 5% 0;
   padding: 0;
   height: 10%;
 }
@@ -56,7 +57,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 60px 0 20px 0;
+  margin: 30px 0 20px 0;
 }
 
 /* scrollbar */
