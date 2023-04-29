@@ -1,12 +1,111 @@
-/* COntact section */
+/* Contact section */
 
-#contact {
+.sign-panel {
   display: flex;
-  flex-direction: column;
-  font-family: 'Sansita', sans-serif;
-  height: 100vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5vw;
+  width: 80%;
+  height: 40%;
+  margin: 1%;
+}
+
+.sign-panel a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  border-radius: 15px;
+}
+
+.right-arrow {
+  border-top: 3vw solid transparent;
+  border-left: 5vw solid black;
+  border-bottom: 3vw solid transparent;
+  position: absolute;
+  right: 0;
+}
+
+.left-arrow {
+  border-top: 3vw solid transparent;
+  border-right: 5vw solid black;
+  border-bottom: 3vw solid transparent;
+  position: absolute;
+  left: 0;
 }
 
 #contact h2 {
   color: #23ddff
 }
+
+#contact-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  min-width: 80%;
+  height: 100%;
+  min-width: 100%;
+}
+
+#links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+#github-link {
+  background: #601282;
+  color:#ffffff
+}
+
+#linkedin-link {
+  background: #02aec8;
+  color: #000000
+}
+
+#huntr-link {
+  background: #239301;
+  color: #000000
+}
+
+#musicsite-link {
+  background: #c89a02;
+  color: #000000
+}
+
+#craftsite-link {
+  background: #ca6800;
+  color: #000000
+}
+
+#youtube-link {
+  background: #b30000;
+  color: #ffffff
+}
+

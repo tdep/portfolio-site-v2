@@ -36,42 +36,88 @@ const Contact = () => {
   //     .catch(err => console.log(err))
   // }
 
+  // handle link redirect
+
   if (loading) {
     return (<div>Loading...</div>)
   } else {
     return (
-      <div id="contact-container">
-        <div id="sign-container">
+      <div id="contact-content-container">
+        <div id="contact-container">
           <div id="links-container">
-            <div id="link-1">
-              <div id="github-link" className="contact-link">
-                <a href={`${contactData[0].github}`}>GitHub</a>
-              </div>
+            <div id="link-1" className="sign-panel">
+              <a 
+                href={`${contactData[0].github}`} 
+                target="_blank" 
+                rel="noreferrer" 
+                id="github-link"
+                className="contact-link"
+              >
+                GitHub
+                <div className="right-arrow"></div>
+              </a>
+
+
             </div>
-            <div id="link-2">
-              <div id="linkedin-link" className="contact-link">
-                <a href={`${contactData[1].linkedin}`}>Linked-In</a>
-              </div>
+            <div id="link-2" className="sign-panel">
+              <a 
+                href={`${contactData[1].linkedin}`} 
+                target="_blank" 
+                rel="noreferrer" 
+                id="linkedin-link"
+                className="contact-link"
+              >
+                Linked-In
+                <div className="right-arrow"></div>
+              </a>
             </div>
-            <div id="link-3">
-              <div id="huntr-link" className="contact-link">
-                <a href={`${contactData[2].huntr}`}>Huntr</a>
-              </div>
+            <div id="link-3" className="sign-panel">
+              <a 
+                href={`${contactData[2].huntr}`} 
+                target="_blank" 
+                rel="noreferrer" 
+                id="huntr-link"
+                className="contact-link"
+              >
+                Huntr
+                <div className="right-arrow"></div>
+              </a>
             </div>
-            <div id="link4">
-              <div id="musicsite-link" className="contact-link">
-                <a href={`${contactData[3].musicsite}`}>Music Composition</a>
-              </div>
+            <div id="link-4" className="sign-panel">
+              <a 
+                href={`${contactData[3].musicsite}`} 
+                target="_blank" 
+                rel="noreferrer" 
+                id="musicsite-link"
+                className="contact-link"
+              >
+                <div className="left-arrow"></div>
+                Music Composition
+              </a>
             </div>
-            <div id="link-5">
-              <div id="craftsite-link" className="contact-link">
-                <a href={`${contactData[4].craftsite}`}>Woodworking & Art</a>
-              </div>
+            <div id="link-5" className="sign-panel">
+              <a 
+                href={`${contactData[4].craftsite}`} 
+                target="_blank" 
+                rel="noreferrer" 
+                id="craftsite-link"
+                className="contact-link"
+              >
+                <div className="left-arrow"></div>
+                Woodworking & Art
+              </a>
             </div>
-            <div id="link-6">
-              <div id="youtube-link"className="contact-link">
-                <a href={`${contactData[5].youtube}`}>YouTube</a>
-              </div>
+            <div id="link-6" className="sign-panel">
+              <a 
+                href={`${contactData[5].youtube}`} 
+                target="_blank" 
+                rel="noreferrer" 
+                id="youtube-link"
+                className="contact-link"
+              >
+                YouTube
+                <div className="right-arrow"></div>
+              </a>
             </div>
           </div>          
         </div>
