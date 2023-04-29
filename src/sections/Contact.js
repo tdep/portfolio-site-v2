@@ -14,8 +14,8 @@ const Contact = () => {
       const data = snapshot.val();
 
       if (snapshot.exists()) {
-        Object.values(data).map((project) => {
-          setContactData((contacts) => [...contactData, contacts])
+        Object.values(data).map((contact) => {
+          setContactData((contactLinks) => [...contactLinks, contact])
           setLoading(false);
         });
       }
@@ -42,28 +42,38 @@ const Contact = () => {
     return (
       <div id="contact-container">
         <div id="sign-container">
-          <div className="screw-container">
-            <div className="screw"></div>
-          </div>
           <div id="links-container">
-            <div id="left-space"></div>
-            <div id="center-space">
-              <div id="contact-links">
-                <div className="contact-link"><a href={`${contactData.github}`}>GITHUB</a><p>⬈</p></div>
-                <div className="contact-link"><p>⬅</p><a href={`${contactData.linkedin}`}>LINKEDIN</a></div>
-                <div className="contact-link"><p>⬅</p><a href={`${contactData.huntr}`}>HUNTR</a></div>
-                <div className="contact-link"><a href={`${contactData.musicsite}`}>T.A.DEPEWMUSIC</a><p>⬊</p></div>
-                <div className="contact-link"><a href={`#`}>YOUTUBE</a><p>⟲</p></div>
+            <div id="link-1">
+              <div id="github-link" className="contact-link">
+                <a href={`${contactData[0].github}`}>GitHub</a>
               </div>
             </div>
-            <div id="right-space"></div>
-          </div>
-          <div className="screw-container">
-            <div className="screw"></div>
-          </div>
-        </div>
-        <div id="post-container">
-          <div id="sign-post"></div>
+            <div id="link-2">
+              <div id="linkedin-link" className="contact-link">
+                <a href={`${contactData[1].linkedin}`}>Linked-In</a>
+              </div>
+            </div>
+            <div id="link-3">
+              <div id="huntr-link" className="contact-link">
+                <a href={`${contactData[2].huntr}`}>Huntr</a>
+              </div>
+            </div>
+            <div id="link4">
+              <div id="musicsite-link" className="contact-link">
+                <a href={`${contactData[3].musicsite}`}>Music Composition</a>
+              </div>
+            </div>
+            <div id="link-5">
+              <div id="craftsite-link" className="contact-link">
+                <a href={`${contactData[4].craftsite}`}>Woodworking & Art</a>
+              </div>
+            </div>
+            <div id="link-6">
+              <div id="youtube-link"className="contact-link">
+                <a href={`${contactData[5].youtube}`}>YouTube</a>
+              </div>
+            </div>
+          </div>          
         </div>
       </div>
 

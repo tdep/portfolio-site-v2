@@ -49,25 +49,24 @@ function LandingPage() {
           <Experience />
         </div>
       </div>
-        <hr className="solid"></hr>
-        <div id="projects" className="page-container">
-          <h2 className="section-title">Projects</h2>
-          <div id="project-content-container" className="content-container">
-            <Projects />
-          </div>
+      <hr className="solid"></hr>
+      <div id="projects" className="page-container">
+        <h2 className="section-title">Projects</h2>
+        <div id="project-content-container" className="content-container">
+          <Projects />
         </div>
-        <hr className="solid"></hr>
+      </div>
+      <hr className="solid"></hr>
         <div id="contact" className="page-container">
           <h2 className="section-title">Contact</h2>
-      <Contact />
-      {/* <SectionConstruction /> */}
+          <Contact />
       </div>
-      {/* <hr className="solid"></hr>
-        <div id="footer">
-          <div className="contentContainer"> */}
-      {/* <Footer /> */}
-      {/* </div> */}
-      {/* </div> */}
+      <hr className="solid"></hr>
+      {/* <div id="footer">
+        <div className="contentContainer">
+          <Footer />
+        </div>
+      </div> */}
 
     </div>
   )

@@ -84,7 +84,7 @@ const Projects = () => {
   // handle power-up of viewer
   function powerUp(inactiveElements) {
     for (let element of inactiveElements) {
-      console.log(element)
+      // console.log(element)
       element.className = "button pwr-on"
     }
     if (auto.className === "button pwr-on") {
@@ -95,7 +95,7 @@ const Projects = () => {
   // handle power-down of viewer
   function powerDown(activeElements) {
     for (let element of activeElements) {
-      console.log(element)
+      // console.log(element)
       element.className = "button off"
     }
     if (autoScroll) {
@@ -136,7 +136,7 @@ const Projects = () => {
     const interval = setInterval(() => {
       if (autoScroll) {
         updateIndex(activeIndex + 1);
-        console.log(projects[activeIndex])
+        // console.log(projects[activeIndex])
       }
     }, 5000);
 
@@ -184,7 +184,7 @@ const Projects = () => {
       } else {
         handleIteration(direction)
       }
-      console.log(activeIndex)
+      // console.log(activeIndex)
     }
   }
 
@@ -197,7 +197,7 @@ const Projects = () => {
       setAutoScroll(false)
       auto.className = "button"
       setActiveIndex(selectedIndex)
-      console.log(selectedIndex)
+      // console.log(selectedIndex)
     }
     // change classname to omit "matrix" and allow buttons to be depressed
   }
