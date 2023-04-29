@@ -2,6 +2,7 @@ import SectionConstruction from "../components/SectionConstruction"
 import About from "./About"
 import Experience from "./Experience"
 import Projects from "./Projects"
+import Contact from "./Contact"
 import trevor from '../assets/portfolio-name-trevor.png'
 import depew from '../assets/portfolio-name-depew.png'
 import software from '../assets/portfolio-title-software.png'
@@ -58,8 +59,8 @@ function LandingPage() {
         <hr className="solid"></hr>
         <div id="contact" className="page-container">
           <h2 className="section-title">Contact</h2>
-      {/* <Contact /> */}
-      <SectionConstruction />
+      <Contact />
+      {/* <SectionConstruction /> */}
       </div>
       {/* <hr className="solid"></hr>
         <div id="footer">
