@@ -5,6 +5,7 @@ import tadlab from "../assets/tadlab_demo.gif"
 import sequinzer from "../assets/sequinzer_demo_4.gif"
 import cheekers from "../assets/cheekers_demo.png"
 import webaudio from "../assets/webaudio_demo.gif"
+import placeholder from "../assets/placeholder.png"
 
 import "../styling/projects.css"
 import "../styling/viewer.css"
@@ -14,12 +15,12 @@ import "../styling/buttons.css"
 const Projects = () => {
   const auto = document.getElementById("auto-scroll")
   let channels = [
-    { ch: "1" }, { ch: "2" }, { ch: "3" }, { ch: "4" }, { ch: "" },
+    { ch: "1" }, { ch: "2" }, { ch: "3" }, { ch: "4" }, { ch: "5" },
     { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" },
     { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" },
     { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" }, { ch: "" }
   ]
-  const images = [ tadlab, sequinzer, cheekers, webaudio ];
+  const images = [ tadlab, sequinzer, cheekers, webaudio, placeholder ];
   const [projects, setProjects] = useState([])
   const [loading, setLoading] = useState(true)
   const [power, setPower] = useState(true)

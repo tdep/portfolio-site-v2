@@ -29,9 +29,13 @@
   border-radius: 15px;
 }
 
+.contact-link:hover {
+  opacity: 75%;
+}
+
 .right-arrow {
   border-top: 3vw solid transparent;
-  border-left: 5vw solid black;
+  border-left: 5.3vw solid black;
   border-bottom: 3vw solid transparent;
   position: absolute;
   right: 0;
@@ -39,7 +43,7 @@
 
 .left-arrow {
   border-top: 3vw solid transparent;
-  border-right: 5vw solid black;
+  border-right: 5.3vw solid black;
   border-bottom: 3vw solid transparent;
   position: absolute;
   left: 0;
@@ -80,32 +84,56 @@
 }
 
 #github-link {
-  background: #601282;
-  color:#ffffff
+  background: linear-gradient(90deg, #601282 0 90%, transparent 90% 100%);
+  color:#ffffff;
+}
+
+#github-link div {
+  border-left-color: #601282;
 }
 
 #linkedin-link {
-  background: #02aec8;
+  background: linear-gradient(90deg, #02aec8 0 90%, transparent 90% 100%);
   color: #000000
+}
+
+#linkedin-link div {
+  border-left-color: #02aec8;
 }
 
 #huntr-link {
-  background: #239301;
+  background: linear-gradient(90deg, #239301 0 90%, transparent 90% 100%);
   color: #000000
+}
+
+#huntr-link div {
+  border-left-color: #239301;
 }
 
 #musicsite-link {
-  background: #c89a02;
+  background: linear-gradient(-90deg, #c89a02 0 90%, transparent 90% 100%);
   color: #000000
+}
+
+#musicsite-link div {
+  border-right-color: #c89a02;
 }
 
 #craftsite-link {
-  background: #ca6800;
+  background: linear-gradient(-90deg, #ca6800 0 90%, transparent 90% 100%);
   color: #000000
 }
 
+#craftsite-link div {
+  border-right-color: #ca6800;
+}
+
 #youtube-link {
-  background: #b30000;
+  background: linear-gradient(90deg, #b30000 0 90%, transparent 90% 100%);
   color: #ffffff
+}
+
+#youtube-link div {
+  border-left-color: #b30000;
 }
 
