@@ -53,7 +53,7 @@ const Contact = () => {
                 id="github-link"
                 className="contact-link"
               >
-                GitHub
+                <div id="github-before"></div>GitHub<div id="github-after"></div>
               </a>
 
 
