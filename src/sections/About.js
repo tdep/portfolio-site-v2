@@ -1,10 +1,11 @@
+import trevor_profile from '../assets/profile_trevor.png'
 import '../styling/about.css'
 
 const About = () => {
   return (
     <div id="about-container">
       <div id="bio-photo">
-        <img id="photo" src="./public/flakit_master_avatar4.png" alt="profile" />
+        <img id="photo" src={trevor_profile} alt="profile" />
         <div id="about-text-container">
           <div id="about-text">
             <p>I am a Software Engineer with a passion for solving problems about human
