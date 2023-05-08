@@ -46,7 +46,7 @@ const Contact = () => {
         <div id="contact-container">
           <div id="links-container">
             <div id="link-1" className="sign-panel">
-              <a 
+              <a
                 href={`${contactData[0].github}`} 
                 target="_blank" 
                 rel="noreferrer" 
@@ -54,7 +54,6 @@ const Contact = () => {
                 className="contact-link"
               >
                 GitHub
-                <div className="right-arrow"></div>
               </a>
 
 
@@ -68,7 +67,6 @@ const Contact = () => {
                 className="contact-link"
               >
                 Linked-In
-                <div className="right-arrow"></div>
               </a>
             </div>
             <div id="link-3" className="sign-panel">
@@ -80,7 +78,6 @@ const Contact = () => {
                 className="contact-link"
               >
                 Huntr
-                <div className="right-arrow"></div>
               </a>
             </div>
             <div id="link-4" className="sign-panel">
@@ -91,7 +88,6 @@ const Contact = () => {
                 id="musicsite-link"
                 className="contact-link"
               >
-                <div className="left-arrow"></div>
                 Music Composition
               </a>
             </div>
@@ -103,7 +99,6 @@ const Contact = () => {
                 id="craftsite-link"
                 className="contact-link"
               >
-                <div className="left-arrow"></div>
                 Woodworking & Art
               </a>
             </div>
@@ -116,7 +111,6 @@ const Contact = () => {
                 className="contact-link"
               >
                 YouTube
-                <div className="right-arrow"></div>
               </a>
             </div>
           </div>          
