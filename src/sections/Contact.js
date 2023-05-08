@@ -46,6 +46,7 @@ const Contact = () => {
         <div id="contact-container">
           <div id="links-container">
             <div id="link-1" className="sign-panel">
+              <div id="github-before" className="spacer"></div>
               <a
                 href={`${contactData[0].github}`} 
                 target="_blank" 
@@ -53,12 +54,13 @@ const Contact = () => {
                 id="github-link"
                 className="contact-link"
               >
-                <div id="github-before"></div>GitHub<div id="github-after"></div>
+                GitHub
               </a>
 
 
             </div>
             <div id="link-2" className="sign-panel">
+              <div id="linkedin-before" className="spacer"></div>
               <a 
                 href={`${contactData[1].linkedin}`} 
                 target="_blank" 
@@ -70,6 +72,7 @@ const Contact = () => {
               </a>
             </div>
             <div id="link-3" className="sign-panel">
+              <div id="huntr-before" className="spacer"></div>
               <a 
                 href={`${contactData[2].huntr}`} 
                 target="_blank" 
@@ -81,6 +84,7 @@ const Contact = () => {
               </a>
             </div>
             <div id="link-4" className="sign-panel">
+              <div id="music-before" className="spacer"></div>
               <a 
                 href={`${contactData[3].musicsite}`} 
                 target="_blank" 
@@ -92,6 +96,7 @@ const Contact = () => {
               </a>
             </div>
             <div id="link-5" className="sign-panel">
+              <div id="craft-before" className="spacer"></div>
               <a 
                 href={`${contactData[4].craftsite}`} 
                 target="_blank" 
@@ -103,6 +108,7 @@ const Contact = () => {
               </a>
             </div>
             <div id="link-6" className="sign-panel">
+              <div id="youtube-before" className="spacer"></div>
               <a 
                 href={`${contactData[5].youtube}`} 
                 target="_blank" 

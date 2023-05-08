@@ -5,14 +5,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
   width: 100%;
   height: 13%;
   min-height: 13%;
+  background-color: rgba(0, 0, 0, 0.25);
+  margin: 1% 0 1% 0;
+  border-radius: 10px;
 }
 
 .sign-panel a {
   text-decoration: none;
-  color: black;
+}
+
+.spacer {
+  margin-left: 1%;
 }
 
 .contact-link {
@@ -20,19 +27,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  position: relative;
   font-size: 5vw;
   font-weight: 900;
-  width: 65%;
+  width: auto;
   min-width: 65%;
   height: 90%;
   min-height: 90%;
-  top: 0;
   border-radius: 15px;
-}
-
-.contact-link:hover {
-  top: 2px;
 }
 
 #contact h2 {
@@ -70,73 +71,134 @@
 }
 
 
-/* #github-before {
-  background-image: linear-gradient(180deg, transparent 0% 50%, #239301 50% 70%, transparent 70% 100%);
-} */
-
-#github-link {
-  color:#bd24ff;
-  text-shadow: 0px 5px 0px #601282;
-  left: 0;
+#link-1 {
+  top: 0;
+  box-shadow: 
+    0px 5px 0 0 #601282,
+    0px 7px 0 0 #000 inset,
+    0px 5px 0 0 #1f0629 inset;
 }
 
-/* #github-after {
-  min-width: 100%;
-  background-image: linear-gradient(180deg, transparent 0% 50%, #239301 50% 70%, transparent 70% 100%);
-} */
-
-#github-link:hover {
-  text-shadow: 0px 3px 0px #601282;
+#link-1 a {
+  color: #bd24ff;
+}
+#link-1 div {
+  width: 5%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent 0% 50%, #bd24ff 50% 70%, transparent 70% 100%);
+  margin-right: 2%;
 }
 
-#linkedin-link {
-  color: #23ddff;
-  text-shadow: 0px 5px 0px #02aec8;
-  left: 10%;
+#link-1:hover {
+  top: 2px;
+  box-shadow: 
+    0px 3px 0 0 #601282,
+    0px 5px 0 0 #1f0629 inset;
 }
 
-#linkedin-link:hover {
-  text-shadow: 0px 3px 0px #02aec8;
+#link-2 {
+  box-shadow: 
+    0px 5px 0 0 #02aec8,
+    0px 5px 0 0 #004d59 inset,
+    0px 7px 0 0 #000 inset;
 }
 
-#huntr-link {
+#link-2 a {
+  color: #23ddff
+}
+
+#link-2 div {
+  width: 10%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent 0% 50%, #23ddff 50% 70%, transparent 70% 100%);
+  margin-right: 2%;
+}
+
+#link-2:hover {
+  top: 2px;
+  box-shadow: 
+    0px 3px 0 0 #02aec8,
+    0px 5px 0 0 #004d59 inset;
+}
+
+#link-3 {
+  box-shadow: 0px 5px 0 0 #239301;
+}
+
+#link-3 a {
   color: #4fff19;
-  text-shadow: 0px 5px 0px #239301;
-  left: 20%
 }
 
-#huntr-link:hover {
-  text-shadow: 0px 3px 0px #239301;
+#link-3 div {
+  width: 15%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent 0% 50%, #4fff19 50% 70%, transparent 70% 100%);
+  margin-right: 2%;
 }
 
-#musicsite-link {
-  color: #ffe21b;
-  text-shadow: 0px 5px 0px #c89a02;
-  left: 30%;
+#link-3:hover {
+  top: 2px;
+  box-shadow: 0px 3px 0 0 #239301;
 }
 
-#musicsite-link:hover {
-  text-shadow: 0px 3px 0px #c89a02;
+#link-4 {
+  box-shadow: 0px 5px 0 0 #c89a02;
 }
 
-#craftsite-link {
+#link-4 a {
+  color: #ffe21b
+}
+
+#link-4 div {
+  width: 20%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent 0% 50%, #ffe21b 50% 70%, transparent 70% 100%);
+  margin-right: 2%;
+}
+
+#link-4:hover {
+  top: 2px;
+  box-shadow: 0px 3px 0 0 #c89a02;
+}
+
+#link-5 {
+  box-shadow: 0px 5px 0 0 #ca6800;
+}
+
+#link-5 a {
   color: #ff8400;
-  text-shadow: 0px 5px 0px #ca6800;
-  left: 40%;
 }
 
-#craftsite-link:hover {
-  text-shadow: 0px 3px 0px #ca6800;
+#link-5 div {
+  width: 25%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent 0% 50%, #ff8400 50% 70%, transparent 70% 100%);
+  margin-right: 2%;
 }
 
-#youtube-link {
-  color: #ff2828;
-  text-shadow: 0px 5px 0px #b30000;
-  left: 50%;
+#link-5:hover {
+  top: 2px;
+  box-shadow: 0px 3px 0 0 #ca6800;
 }
 
-#youtube-link:hover {
-  text-shadow: 0px 3px 0px #b30000;
+#link-6 {
+  box-shadow: 0px 5px 0 0 #b30000;
+}
+
+#link-6 a {
+  color: #ff2828
+}
+
+#link-6 div {
+  width: 30%;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent 0% 50%, #ff2828 50% 70%, transparent 70% 100%);
+  margin-right: 2%;
+}
+
+#link-6:hover {
+  top: 2px;
+  box-shadow: 0px 3px 0 0 #b30000;
 }
 
 @media screen and (max-width: 1250px) {
@@ -152,6 +214,10 @@
   .sign-panel {
     height: 9%;
     min-height: 9%;
+  }
+
+  .contact-link {
+    text-shadow: none;
   }
 }
 
