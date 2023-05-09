@@ -54,7 +54,7 @@
 }
 
 #tech-container p {
-  margin: 0.5vh;
+  margin: 0.5vw 0;
 }
 
 #tech-container ul {
@@ -77,17 +77,10 @@
   content: "◈";
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1250px) {
 
   #photo {
     margin: 15px;
-  }
-}
-
-@media screen and (max-width: 602px) {
-
-  #about {
-    height: 84vh;
   }
 
   #about-container {
@@ -95,7 +88,19 @@
   }
 
   #tech-container {
+    font-size: 3.6vw;
     width: 80%;
+  }
+
+  #tech-container li {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 602px) {
+
+  #about {
+    height: 84vh;
   }
 
   #tech-container li {

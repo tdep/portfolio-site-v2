@@ -1,7 +1,7 @@
 /* experience section */
 
 #experience {
-  height: 80vh;
+  height: 96vh;
 
 }
 
@@ -69,7 +69,7 @@
 }
 
 .experience-blurbs {
-  font-size: 1.7vw;
+  font-size: 2vw;
   margin: 0;
 }
 
@@ -107,7 +107,7 @@
   color: #ff2828
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1250px) {
   #experience-container {
     display: flex;
     flex-direction: column;

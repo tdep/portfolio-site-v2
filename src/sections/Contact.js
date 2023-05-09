@@ -45,6 +45,7 @@ const Contact = () => {
       <div id="contact-content-container">
         <div id="contact-container">
           <div id="links-container">
+            <p>Want to get in touch? Interested in seeing my other projects? Check out the links below!</p>
             <div id="link-1" className="sign-panel">
               <div id="github-before" className="spacer"></div>
               <a
