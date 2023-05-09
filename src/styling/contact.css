@@ -75,7 +75,6 @@
   top: 0;
   box-shadow: 
     0px 5px 0 0 #601282,
-    0px 7px 0 0 #000 inset,
     0px 5px 0 0 #1f0629 inset;
 }
 
@@ -99,8 +98,7 @@
 #link-2 {
   box-shadow: 
     0px 5px 0 0 #02aec8,
-    0px 5px 0 0 #004d59 inset,
-    0px 7px 0 0 #000 inset;
+    0px 5px 0 0 #001f24 inset;
 }
 
 #link-2 a {
@@ -118,11 +116,13 @@
   top: 2px;
   box-shadow: 
     0px 3px 0 0 #02aec8,
-    0px 5px 0 0 #004d59 inset;
+    0px 5px 0 0 #001f24 inset;
 }
 
 #link-3 {
-  box-shadow: 0px 5px 0 0 #239301;
+  box-shadow: 
+    0px 5px 0 0 #239301,
+    0px 5px 0 0 #061800 inset;
 }
 
 #link-3 a {
@@ -138,11 +138,15 @@
 
 #link-3:hover {
   top: 2px;
-  box-shadow: 0px 3px 0 0 #239301;
+  box-shadow: 
+    0px 3px 0 0 #239301,
+    0px 5px 0 0 #061800 inset;
 }
 
 #link-4 {
-  box-shadow: 0px 5px 0 0 #c89a02;
+  box-shadow: 
+    0px 5px 0 0 #ffe21b,
+    0px 5px 0 0 #2d2805 inset;
 }
 
 #link-4 a {
@@ -158,11 +162,15 @@
 
 #link-4:hover {
   top: 2px;
-  box-shadow: 0px 3px 0 0 #c89a02;
+  box-shadow: 
+    0px 3px 0 0 #c89a02,
+    0px 5px 0 0 #2d2805 inset;
 }
 
 #link-5 {
-  box-shadow: 0px 5px 0 0 #ca6800;
+  box-shadow: 
+    0px 5px 0 0 #ca6800,
+    0px 5px 0 0 #371c00 inset;
 }
 
 #link-5 a {
@@ -178,11 +186,15 @@
 
 #link-5:hover {
   top: 2px;
-  box-shadow: 0px 3px 0 0 #ca6800;
+  box-shadow: 
+    0px 3px 0 0 #ca6800,
+    0px 5px 0 0 #371c00 inset;
 }
 
 #link-6 {
-  box-shadow: 0px 5px 0 0 #b30000;
+  box-shadow: 
+    0px 5px 0 0 #b30000,
+    0px 5px 0 0 #2f0000 inset;
 }
 
 #link-6 a {
@@ -198,7 +210,9 @@
 
 #link-6:hover {
   top: 2px;
-  box-shadow: 0px 3px 0 0 #b30000;
+  box-shadow: 
+    0px 3px 0 0 #b30000,
+    0px 5px 0 0 #2f0000 inset;
 }
 
 @media screen and (max-width: 1250px) {
