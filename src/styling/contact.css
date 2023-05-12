@@ -36,6 +36,11 @@
   border-radius: 15px;
 }
 
+#contact {
+  height: fit-content;
+  min-height: fit-content;
+}
+
 #contact h2 {
   color: #23ddff
 }
@@ -222,10 +227,10 @@
 }
 
 @media screen and (max-width: 1250px) {
-  #contact {
+  /* #contact {
     height: 90vh;
     min-height: 90vh;
-  }
+  } */
 
   #contact-container {
     justify-content: flex-start;
