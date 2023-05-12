@@ -40,7 +40,7 @@ a {
   min-width: 80%;
   height: 110vh;
   min-height: fit-content;
-  margin-bottom: 8%;
+  /* margin-bottom: 8%; */
 }
 
 .section-title {
@@ -49,7 +49,7 @@ a {
   text-transform: uppercase;
   margin: 0 0 5% 0;
   padding: 0;
-  height: 10%;
+  /* height: 10%; */
 }
 
 .content-container {
@@ -79,8 +79,9 @@ a {
   background: #4fff19
 }
 
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 602px) { 
   .section-title {
     font-size: 35px;
+    margin: 0;
   }
 }
