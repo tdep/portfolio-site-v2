@@ -1,25 +1,25 @@
-[debug] [2023-05-15T03:23:27.864Z] ----------------------------------------------------------------------
-[debug] [2023-05-15T03:23:27.865Z] Command:       /home/tdep/.nvm/versions/node/v16.17.0/bin/node /home/tdep/.nvm/versions/node/v16.17.0/bin/firebase deploy
-[debug] [2023-05-15T03:23:27.866Z] CLI Version:   11.29.1
-[debug] [2023-05-15T03:23:27.866Z] Platform:      linux
-[debug] [2023-05-15T03:23:27.866Z] Node Version:  v16.17.0
-[debug] [2023-05-15T03:23:27.866Z] Time:          Sun May 14 2023 23:23:27 GMT-0400 (Eastern Daylight Time)
-[debug] [2023-05-15T03:23:27.866Z] ----------------------------------------------------------------------
+[debug] [2023-05-15T03:34:48.943Z] ----------------------------------------------------------------------
+[debug] [2023-05-15T03:34:48.944Z] Command:       /home/tdep/.nvm/versions/node/v16.17.0/bin/node /home/tdep/.nvm/versions/node/v16.17.0/bin/firebase deploy
+[debug] [2023-05-15T03:34:48.945Z] CLI Version:   11.29.1
+[debug] [2023-05-15T03:34:48.945Z] Platform:      linux
+[debug] [2023-05-15T03:34:48.945Z] Node Version:  v16.17.0
+[debug] [2023-05-15T03:34:48.945Z] Time:          Sun May 14 2023 23:34:48 GMT-0400 (Eastern Daylight Time)
+[debug] [2023-05-15T03:34:48.945Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-05-15T03:23:27.923Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-05-15T03:23:27.923Z] > authorizing via signed-in user (t.depewmusic@gmail.com)
-[debug] [2023-05-15T03:23:27.923Z] [iam] checking project portfolio-website-3f5af for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2023-05-15T03:23:27.925Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions [none]
-[debug] [2023-05-15T03:23:27.925Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions x-goog-quota-user=projects/portfolio-website-3f5af
-[debug] [2023-05-15T03:23:27.925Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2023-05-15T03:23:28.891Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions 401
-[debug] [2023-05-15T03:23:28.892Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions","service":"cloudresourcemanager.googleapis.com"}}]}}
-[debug] [2023-05-15T03:23:28.893Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
-[debug] [2023-05-15T03:23:28.894Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-3f5af [none]
-[debug] [2023-05-15T03:23:29.309Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-3f5af 401
-[debug] [2023-05-15T03:23:29.309Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-3f5af {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
-[debug] [2023-05-15T03:23:29.310Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
-[debug] [2023-05-15T03:23:29.311Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-15T03:34:48.996Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-15T03:34:48.996Z] > authorizing via signed-in user (t.depewmusic@gmail.com)
+[debug] [2023-05-15T03:34:48.997Z] [iam] checking project portfolio-website-3f5af for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-05-15T03:34:48.999Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions [none]
+[debug] [2023-05-15T03:34:48.999Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions x-goog-quota-user=projects/portfolio-website-3f5af
+[debug] [2023-05-15T03:34:48.999Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-05-15T03:34:49.313Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions 401
+[debug] [2023-05-15T03:34:49.313Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/portfolio-website-3f5af:testIamPermissions {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"ACCESS_TOKEN_TYPE_UNSUPPORTED","metadata":{"method":"google.cloudresourcemanager.v1.Projects.TestIamPermissions","service":"cloudresourcemanager.googleapis.com"}}]}}
+[debug] [2023-05-15T03:34:49.314Z] [iam] error while checking permissions, command may fail: FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-15T03:34:49.316Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-3f5af [none]
+[debug] [2023-05-15T03:34:49.691Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-3f5af 401
+[debug] [2023-05-15T03:34:49.692Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/portfolio-website-3f5af {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2023-05-15T03:34:49.692Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2023-05-15T03:34:49.693Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
     at responseToError (/home/tdep/.nvm/versions/node/v16.17.0/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
     at RetryOperation._fn (/home/tdep/.nvm/versions/node/v16.17.0/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
