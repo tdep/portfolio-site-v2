@@ -1,36 +1,33 @@
 /* projects section styling*/
 
-/* #projects {
-  display: flex;
-  flex-direction: column;
-  font-family: 'Sansita', sans-serif;
-  height: 100vh;
-} */
+#projects {
+  height: fit-content;
+  min-height: fit-content;
+}
 
 #projects h2 {
   color: #4fff19;
 }
 
 #project-content-container {
-  height: 90vh;
+  height: fit-content;
+  min-height: fit-content;
 }
 
 #projects-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* align-items: flex-start; */
   width: 80%;
   height: 100%;
-  /* min-height: 90vh; */
 }
 
 
 /* Medium screens */
-@media screen and (max-width:1600px) {
-  #projects-container {
-    width: 92%;
-  }
+
+
+@media screen and (max-width:768px) {
+
 }
 
 @media screen and (max-width: 602px) {
