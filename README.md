@@ -1,7 +1,7 @@
 # README
 ## Portfolio Website V2
 
-### **This has now been superceded by my Portfolio Website V4 found [here](https://github.com/tdep/trevordepew.com)!**
+### **This has now been superseded by my Portfolio Website V4 found [here](https://github.com/tdep/trevordepew.com)!**
 
 #### About
 Here is my (original) portfolio website! A living webpage that features projects that I have been working on, my past experience, a little about me, and my links!
