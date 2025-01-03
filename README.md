@@ -6,7 +6,7 @@
 #### About
 Here is my (original) portfolio website! A living webpage that features projects that I have been working on, my past experience, a little about me, and my links!
 
-
+![portfolio_v2_demo_gif](https://github.com/tdep/portfolio-site-v2/blob/main/public/portfolio-v2.gif)
 
 The focus here was in designing something that would tell a story with the content I wanted in my portfolio, while conveying a sense of personal style and interests. 
 I built it using vanilla CSS as I had done with previous projects like the [Sequenzer](https://github.com/tdep/Sequinzer-6001-2a) and [TadLab](https://github.com/tdep/tadlab).
